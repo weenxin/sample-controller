@@ -395,5 +395,12 @@ func newDeployment(foo *samplev1alpha1.Foo) *appsv1.Deployment {
 }
 ```
 
+## 流程图
 
-![Aaron Swartz](https://github.com/weenxin/sample-controller/blob/master/docs/images/client-go-controller-interaction.jpeg?raw=true)
+### client-go流程
+
+![client-go](https://github.com/weenxin/sample-controller/blob/master/docs/images/client-go-controller-interaction.jpeg?raw=true)
+
+### sample-controller 流程
+
+![sample-controller](https://github.com/weenxin/sample-controller/blob/master/processingchart.png)
